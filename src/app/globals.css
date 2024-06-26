@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.white-button-animation{
+    background-size: 202% 200%;
+    transition: background-position 1s;
+    background-image: linear-gradient(to right, #0f94fa 50%, #fff 0);
+    background-position: right;
+}
+.white-button-animation:hover{
+    background-position: left;
+    color: #fff;    
+}
+
+.dark-button-animation{
+    background-size: 202% 200%;
+    transition: background-position 1s;
+    background-image: linear-gradient(to right, #0f94fa 50%, #031225 0);
+    background-position: right;
+}
+.dark-button-animation:hover{
+    background-position: left;
+    color: #fff;    
+}
+.welcome-button-animation{
+    background-size: 202% 200%;
+    transition: background-position 1s;
+    background-image: linear-gradient(to right, #0f94fa 50%, #113553 0);
+    background-position: right;
+}
+.welcome-button-animation:hover{
+    background-position: left;
+    color: #fff;    
+}
+.assurance-section{
+   background-image:  radial-gradient(at center left, #1E4D6F 0%, #031225 100%);
+}

@@ -1,12 +1,14 @@
+import Breadcrambs from "../components/Breadcrambs"
+
 interface IProps {
 
 }
 
 const servicesPage = ({}: IProps ) =>{
     return (
-        <div> 
-            <h1>hello our services page</h1>
-        </div>
+        <> 
+    <Breadcrambs pageTitle="Our Services" />
+        </>
     )
 }
 

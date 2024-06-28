@@ -7,4 +7,11 @@ export interface IService {
     linkUrl: string;
 
   }
+
+  export interface IFaq {
+    id?: string;
+    title: string;
+    content: string;
+   
+  }
   

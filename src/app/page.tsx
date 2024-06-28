@@ -3,6 +3,7 @@ import Image from "next/image";
 import ServicesCard from "./components/ServicesCard";
 import Button from "./components/Ui/Button";
 import { serviceList } from "./data";
+import { accordionItems } from "./data";
 import welcomeImg from "../../public/images/Group 150.webp";
 import shieldImg from "../../public/images/shield 1.svg";
 import dateAvailability from "../../public/images/Group-184.svg";
@@ -10,34 +11,6 @@ import topRated from "../../public/images/Group-181.svg";
 import topQuality from "../../public/images/Group-183.svg";
 import assetImage from "../../public/images/Asset-11.png";
 import Accordion from "./components/Accordion";
-
-const accordionItems = [
-  {
-    title: "What is Mammut Facility Management?",
-    content:
-      "Mammut Facility Management is a dedicated cleaning and hospitality company committed to delivering exceptional, personalized, and cost-effective services. We specialize in providing comprehensive facility management solutions to meet the unique needs of our clients.",
-  },
-  {
-    title: "What services does Mammut Facility Management provide?",
-    content: `We offer a wide range of services to cater to the diverse needs of our clients. Our services include but are not limited to:
-
-Commercial cleaning: We provide comprehensive cleaning solutions for offices, retail spaces, educational institutions, healthcare facilities, and more.
-Hospitality services: We offer professional housekeeping, janitorial services, and facility maintenance for hotels, resorts, and other hospitality establishments.
-Facility management: We provide end-to-end facility management solutions, including maintenance, repairs, space planning, and vendor management.
-Specialized cleaning: We have expertise in specialized cleaning services such as carpet cleaning, window cleaning, deep cleaning, and post-construction cleaning.`,
-  },
-  {
-    title:
-      "How does Mammut Facility Management ensure the quality of its services?",
-    content:
-      "We prioritize quality in everything we do. Our experienced professionals undergo rigorous training to ensure they are equipped with the necessary skills and knowledge to deliver exceptional service. We also conduct regular inspections and implement quality control measures to maintain high standards. Additionally, we value client feedback and actively seek it to continuously improve our services.",
-  },
-  {
-    title: "How can I request services from Mammut Facility Management?",
-    content:
-      "Absolutely! We understand that each industry and business has unique requirements. We take pride in our ability to provide customized solutions that address the specific needs of our clients. Whether you are in the corporate sector, healthcare industry, hospitality sector, or any other industry, we can tailor our services to meet your specific needs.",
-  },
-];
 
 const handleClick = () => {
   window.location.href = "https://mammutfm.client-booking.com/";
@@ -57,16 +30,20 @@ const servicesList = serviceList.map((service) => (
   <ServicesCard key={service.id} service={service} />
 ));
 
+const faqList = accordionItems.slice(0, 4).map((faq) => (
+<Accordion key={faq.id} items={[faq]} />
+));
+
 export default function Home() {
   return (
     <>
       {/* Hero Section  */}
-      <div className="hero-container bg-[url('../../public/images/Group186.webp')] bg-cover	p-28 flex justify-end flex-col items-center pt-72 pb-10 bg-center	">
-        <p className="text-4xl text-center font-extrabold text-white ">
+      <div className="hero-container bg-[url('../../public/images/Group186.webp')] bg-cover	p-28 flex justify-end flex-col items-center pt-80 pb-16 bg-center	">
+        <p className="text-5xl text-center font-extrabold text-white ">
           EXPERIENCE QUALITY FACILITY <br /> MANAGEMENT TODAY
         </p>
         <Button
-          className="bg-white text-center mt-10 py-2 px-7 text-lg font-bold white-button-animation"
+          className="bg-white text-center mt-10 py-4 px-10 text-2xl font-bold white-button-animation"
           onClick={handleClick}
         >
           Book now
@@ -176,9 +153,10 @@ export default function Home() {
         </div>
       </div>
       {/* FAQ  */}
-      <div className="p-8">
-        <Accordion items={accordionItems} />
-      </div>
+      <h2 className="text-center p-7 text-4xl font-black text-[#113553]">
+      Frequently Asked Questions
+        </h2>
+      <div className="p-8">{faqList}</div>
     </>
   );
 }

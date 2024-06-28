@@ -24,13 +24,13 @@ const Footer = ({ }: IProps) => {
                 </div>
                 <div className="sm:w-2/3 w-full flex text-sm mt-6 lg:mt-0  sm:space-y-0">
                     <ul className="text-white list-none p-0 font-thin flex flex-col text-left w-full">
-                        <li className="inline-block py-2 px-3 text-white uppercase font-semibold text-base tracking-wide">
+                        <li className="inline-block py-2 px-3 text-white uppercase font-semibold txt-lg sm:text-2xl tracking-wide">
                             Quick Links
                         </li>
                         <li>
                             <Link
                                 href="/about-us"
-                                className="inline-block py-1 px-3 font-medium font-sans text-white hover:text-white no-underline"
+                                className="inline-block py-1 px-3 font-medium text-base sm:text-xl font-sans text-white hover:text-white no-underline"
                             >
                                 About Us
                             </Link>
@@ -38,7 +38,7 @@ const Footer = ({ }: IProps) => {
                         <li>
                             <Link
                                 href="/contact-us"
-                                className="inline-block py-1 px-3 font-medium font-sans text-white hover:text-white no-underline"
+                                className="inline-block py-1 px-3 font-medium font-sans text-base sm:text-xl text-white hover:text-white no-underline"
                             >
                                 Contact Us
                             </Link>
@@ -46,7 +46,7 @@ const Footer = ({ }: IProps) => {
                         <li>
                             <Link
                                 href="/faq"
-                                className="inline-block py-1 px-3 font-medium font-sans text-white hover:text-white no-underline"
+                                className="inline-block py-1 px-3 font-medium font-sans text-base sm:text-xl text-white hover:text-white no-underline"
                             >
                                 FAQ
                             </Link>
@@ -54,7 +54,7 @@ const Footer = ({ }: IProps) => {
                         <li>
                             <Link
                                 href="#"
-                                className="inline-block py-1 px-3 font-medium text-white hover:text-white no-underline"
+                                className="inline-block py-1 px-3 font-medium text-base sm:text-xl text-white hover:text-white no-underline"
                             >
                                 Blog
                             </Link>
@@ -62,20 +62,20 @@ const Footer = ({ }: IProps) => {
                         <li>
                             <Link
                                 href="#"
-                                className="inline-block py-1 px-3 font-medium text-white hover:text-white no-underline"
+                                className="inline-block py-1 px-3 font-medium text-base sm:text-xl text-white hover:text-white no-underline"
                             >
                                 Terms of Use
                             </Link>
                         </li>
                     </ul>
                     <ul className="text-gray-700 list-none p-0 font-thin flex flex-col text-left w-full">
-                        <li className="inline-block py-2 px-3 text-white uppercase font-semibold text-base tracking-wide">
+                        <li className="inline-block py-2 px-3 text-white uppercase font-semibold txt-lg sm:text-2xl tracking-wide">
                             Our Service
                         </li>
                         <li>
                             <Link
                                 href="#"
-                                className="inline-block py-1 px-3 font-medium text-white hover:text-white no-underline"
+                                className="inline-block py-1 px-3 font-medium text-base sm:text-xl text-white hover:text-white no-underline"
                             >
                                 AC Duct Cleaning
                             </Link>
@@ -83,7 +83,7 @@ const Footer = ({ }: IProps) => {
                         <li>
                             <Link
                                 href="#"
-                                className="inline-block py-1 px-3 font-medium text-white hover:text-white no-underline"
+                                className="inline-block py-1 px-3 font-medium text-base sm:text-xl text-white hover:text-white no-underline"
                             >
                                 AC Maintenance
                             </Link>
@@ -91,7 +91,7 @@ const Footer = ({ }: IProps) => {
                         <li>
                             <Link
                                 href="#"
-                                className="inline-block py-1 px-3 font-medium text-white hover:text-white no-underline"
+                                className="inline-block py-1 px-3 font-medium text-base sm:text-xl text-white hover:text-white no-underline"
                             >
                                 Deep Cleaning
                             </Link>
@@ -99,7 +99,7 @@ const Footer = ({ }: IProps) => {
                         <li>
                             <Link
                                 href="#"
-                                className="inline-block py-1 px-3 font-medium text-white hover:text-white no-underline"
+                                className="inline-block py-1 px-3 font-medium text-base sm:text-xl text-white hover:text-white no-underline"
                             >
                                 Painting Service
                             </Link>
@@ -107,7 +107,7 @@ const Footer = ({ }: IProps) => {
                         <li>
                             <Link
                                 href="#"
-                                className="inline-block py-1 px-3 font-medium text-white hover:text-white no-underline"
+                                className="inline-block py-1 px-3 font-medium text-base sm:text-xl text-white hover:text-white no-underline"
                             >
                                 Pest Control
                             </Link>
@@ -115,7 +115,7 @@ const Footer = ({ }: IProps) => {
                         <li>
                             <Link
                                 href="#"
-                                className="inline-block py-1 px-3 font-medium text-white hover:text-white no-underline"
+                                className="inline-block py-1 px-3 font-medium text-base sm:text-xl text-white hover:text-white no-underline"
                             >
                                 Pool Cleaning
                             </Link>

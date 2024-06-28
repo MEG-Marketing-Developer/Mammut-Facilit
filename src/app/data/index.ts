@@ -1,5 +1,5 @@
 import { v4 as uuid } from "uuid";
-import { IService } from "../interfaces";
+import { IService, IFaq } from "../interfaces";
 export const serviceList: IService[] = [
 
     {
@@ -91,3 +91,48 @@ export const serviceList: IService[] = [
     },
 
 ]
+export const accordionItems: IFaq[] = [
+
+    {
+    id: uuid(),
+      title: "What is Mammut Facility Management?",
+      content:
+        "Mammut Facility Management is a dedicated cleaning and hospitality company committed to delivering exceptional, personalized, and cost-effective services. We specialize in providing comprehensive facility management solutions to meet the unique needs of our clients.",
+    },
+    {
+        id: uuid(),
+      title: "What services does Mammut Facility Management provide?",
+      content: `We offer a wide range of services to cater to the diverse needs of our clients. Our services include but are not limited to:
+  
+  Commercial cleaning: We provide comprehensive cleaning solutions for offices, retail spaces, educational institutions, healthcare facilities, and more.
+  Hospitality services: We offer professional housekeeping, janitorial services, and facility maintenance for hotels, resorts, and other hospitality establishments.
+  Facility management: We provide end-to-end facility management solutions, including maintenance, repairs, space planning, and vendor management.
+  Specialized cleaning: We have expertise in specialized cleaning services such as carpet cleaning, window cleaning, deep cleaning, and post-construction cleaning.`,
+    },
+    {
+        id: uuid(),
+      title:
+        "How does Mammut Facility Management ensure the quality of its services?",
+      content:
+        "We prioritize quality in everything we do. Our experienced professionals undergo rigorous training to ensure they are equipped with the necessary skills and knowledge to deliver exceptional service. We also conduct regular inspections and implement quality control measures to maintain high standards. Additionally, we value client feedback and actively seek it to continuously improve our services.",
+    },
+    {
+        id: uuid(),
+      title: "How can I request services from Mammut Facility Management?",
+      content:
+        "Absolutely! We understand that each industry and business has unique requirements. We take pride in our ability to provide customized solutions that address the specific needs of our clients. Whether you are in the corporate sector, healthcare industry, hospitality sector, or any other industry, we can tailor our services to meet your specific needs.",
+    },
+    {
+        id: uuid(),
+      title: "Does Mammut offer customized solutions for specific industries or businesses?",
+      content:
+        "To request our services, you can reach out to us through our website, email, or phone. Our dedicated team will promptly assist you, assess your needs, and provide a tailored solution to meet your requirements.",
+    },
+    {
+        id: uuid(),
+      title: "What geographic areas does Mammut Facility Management serve?",
+      content:
+        "We provide our services in [mention the geographic areas you serve]. However, we are continuously expanding our reach, so if you have a specific location in mind, please reach out to us, and we will do our best to accommodate your needs.",
+    },
+  ];
+  

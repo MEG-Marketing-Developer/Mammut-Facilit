@@ -22,7 +22,7 @@ return (
           />  
         <h3 className="font-bold text-xl">{service.title}</h3>
         </Link>
-        <p className="text-black font-semibold ">{service.description}</p>
+        <p className="text-black font-semibold pr-24">{service.description}</p>
         <Button onClick={handleClick}
         className=" text-white text-center mt-10 py-3 px-4 text-xs rounded-lg font-medium dark-button-animation"
         >Book Now</Button>

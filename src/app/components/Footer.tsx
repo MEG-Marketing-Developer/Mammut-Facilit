@@ -29,7 +29,7 @@ const Footer = ({ }: IProps) => {
                         </li>
                         <li>
                             <Link
-                                href="#"
+                                href="/about-us"
                                 className="inline-block py-1 px-3 font-medium font-sans text-white hover:text-white no-underline"
                             >
                                 About Us
@@ -37,7 +37,7 @@ const Footer = ({ }: IProps) => {
                         </li>
                         <li>
                             <Link
-                                href="#"
+                                href="/contact-us"
                                 className="inline-block py-1 px-3 font-medium font-sans text-white hover:text-white no-underline"
                             >
                                 Contact Us
@@ -45,7 +45,7 @@ const Footer = ({ }: IProps) => {
                         </li>
                         <li>
                             <Link
-                                href="#"
+                                href="/faq"
                                 className="inline-block py-1 px-3 font-medium font-sans text-white hover:text-white no-underline"
                             >
                                 FAQ

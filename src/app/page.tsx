@@ -37,7 +37,7 @@ const faqList = accordionItems.slice(0, 4).map((faq) => (
 export default function Home() {
   return (
     <>
-      {/* Hero Section  */}
+      {/* Hero Section   */}
       <div className="hero-container bg-[url('../../public/images/Group186.webp')] bg-cover	p-28 flex justify-end flex-col items-center pt-80 pb-16 bg-center	">
         <p className="text-5xl text-center font-extrabold text-white ">
           EXPERIENCE QUALITY FACILITY <br /> MANAGEMENT TODAY

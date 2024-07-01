@@ -5,7 +5,8 @@ interface IProps {
 import React, { useEffect, useState } from 'react';
 import { Bars3BottomRightIcon, XMarkIcon, PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
 import Image from "next/image";
-import Link from 'next/link'
+import Link from 'next/link';
+import logoImage from "../../../public/images/mammut-logo.svg";
 
 
 const Header = ({ }: IProps) => {
@@ -42,7 +43,7 @@ const Header = ({ }: IProps) => {
                     {/* logo section */}
                     <Link href="/" className='cursor-pointer flex items-center gap-1'>
                         <Image
-                            src="./images/mammut-logo.svg"
+                            src={logoImage}
                             alt="Mammut Logo"
                             width={248}
                             height={47}

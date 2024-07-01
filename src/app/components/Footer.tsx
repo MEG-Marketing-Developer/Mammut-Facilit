@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import logoImageWhite from "../../../public/images/mammut-logo-white.svg";
 
 interface IProps { }
 
@@ -10,7 +11,7 @@ const Footer = ({ }: IProps) => {
                 <div className="md:mx-auto sm:w-2/3 w-full md:px-4 container overflow-hidden flex flex-col  justify-start">
                     <Link href="#" className="block mr-4">
                         <Image
-                            src="./images/mammut-logo-white.svg"
+                            src={logoImageWhite}
                             alt="white Logo"
                             width={248}
                             height={47}

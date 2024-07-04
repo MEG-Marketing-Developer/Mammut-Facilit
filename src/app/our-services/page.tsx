@@ -8,9 +8,7 @@ import Button from "../components/Ui/Button";
 import assetImage from "../../../public/images/Asset-11.png";
 
 
-interface IProps {
 
-}
 
 const handleClick = () => {
     window.location.href = "https://mammutfm.client-booking.com/";
@@ -20,7 +18,7 @@ const servicesList = serviceList.map((service) => (
     <ServicesCard key={service.id} service={service} />
   ));
   
-const servicesPage = ({}: IProps ) =>{
+const servicesPage = () =>{
     return (
         <> 
     <Breadcrambs pageTitle="Our Services" />

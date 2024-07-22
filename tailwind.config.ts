@@ -12,7 +12,10 @@ const config: Config = {
     extend: {
       flex: {
         '2': '2 2 0%'
-      }
+      },
+      boxShadow: {
+        'custom-shadow': '-6px 0px 6px 0px rgba(0, 0, 0, 0.15)',
+      },
    
     },
   },

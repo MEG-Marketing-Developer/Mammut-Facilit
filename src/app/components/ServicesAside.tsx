@@ -31,8 +31,8 @@ const ServicesAside = ({}: IProps) => {
   ));
   return (
     <div className="bg-[#d6e2e3] pt-[5%] flex flex-col ">
-      <div className="grid grid-cols-1  gap-5 py-4 md:px-20 px-10 pb-20">
-        <div className="bg-white flex flex-col border-t-8 border-[#4B8FAA] shadow-custom-shadow ml-0 sm:-ml-[33%] px-8">
+      <div className="grid grid-cols-1  gap-5 py-4 md:px-20 px-6 sm:px-10 pb-20">
+        <div className="bg-white flex flex-col border-t-8 border-[#4B8FAA] shadow-custom-shadow ml-0 lg:-ml-[33%] px-8">
           <h3 className="text-3xl text-[#113553] font-bold text-left py-8 pl-5">
             Service List
           </h3>
@@ -40,7 +40,7 @@ const ServicesAside = ({}: IProps) => {
           <div className="space-y-6 py-10">{servicesList}</div>
         </div>
 
-        <div className="bg-white flex flex-col border-t-8 border-[#4B8FAA] shadow-custom-shadow ml-0 sm:-ml-[33%] px-8">
+        <div className="bg-white flex flex-col border-t-8 border-[#4B8FAA] shadow-custom-shadow ml-0 lg:-ml-[33%] px-8">
           <h3 className="text-3xl text-[#113553] font-bold text-left py-8 pl-5">
             Have a Questions?
           </h3>
@@ -50,7 +50,7 @@ const ServicesAside = ({}: IProps) => {
           </div>
         </div>
 
-        <div className="bg-white flex flex-col border-t-8 border-[#4B8FAA] shadow-custom-shadow ml-0 sm:-ml-[33%] px-8">
+        <div className="bg-white flex flex-col border-t-8 border-[#4B8FAA] shadow-custom-shadow ml-0 lg:-ml-[33%] px-8">
           <h3 className="text-3xl text-[#113553] font-bold text-left py-8 pl-5">
             Download Now
           </h3>
@@ -80,7 +80,7 @@ const ServicesAside = ({}: IProps) => {
           </div>
         </div>
 
-        <div className="flex flex-col p-[21%] shadow-custom-shadow ml-0 sm:-ml-[33%]  bg-[url('../../public/images/Group186.webp')] bg-cover	  justify-end  items-center  bg-center">          
+        <div className="flex flex-col p-[21%] shadow-custom-shadow ml-0 lg:-ml-[33%]  bg-[url('../../public/images/Group186.webp')] bg-cover	  justify-end  items-center  bg-center">          
           <div className="space-y-6 py-10 flex flex-col items-center">
           <h3 className="text-white font-bold text-3xl text-center">We Are Always<br/>Ready to Serve <br/>you</h3>
           <p className="text-white text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor</p>

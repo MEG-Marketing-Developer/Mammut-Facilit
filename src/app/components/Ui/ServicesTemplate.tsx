@@ -9,15 +9,15 @@ interface IProps {
 function ServicesTemplate({ children }: IProps) {
   return (
     <>
-      <div className="flex flex-col sm:flex-row py-12">
+      <div className="flex flex-col lg:flex-row py-12">
         <main className="flex-2">
-          <div className="pl-12 pr-32 space-y-3">{children}</div>
+          <div className="px-[5%] lg:pl-12 lg:pr-32 space-y-3">{children}</div>
         </main>
         <aside className="flex-1">
           <ServicesAside />
         </aside>
       </div>
-      <div className="w-[70%] py-10 mx-auto">
+      <div className="w-full lg:w-[70%] py-10 mx-auto">
         <SubscribeBox />
       </div>
     </>

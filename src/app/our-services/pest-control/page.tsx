@@ -1,8 +1,15 @@
-
+import ServicesTemplate from '@/app/components/Ui/ServicesTemplate'
 import React from 'react'
 
-export const pestControl = () => {
+function page() {
   return (
-    <div>pest Control</div>
+    <>   
+    <ServicesTemplate>
+   <p>This is a child element</p>
+   <p>Another child element</p>
+</ServicesTemplate>
+    </>
   )
 }
+
+export default page

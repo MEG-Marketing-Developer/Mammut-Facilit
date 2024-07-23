@@ -9,7 +9,7 @@ export const serviceList: IService[] = [
         description:
             "Intensive, comprehensive clean by experienced professionals.",
         imageURL:"../images/services-images/2150520644.webp",
-        linkUrl: 'https://mammutfm.ch/our-services/deep-cleaning/'
+        linkUrl: '/our-services/deep-cleaning/'
     },
     {
         id: uuid(),
@@ -18,7 +18,7 @@ export const serviceList: IService[] = [
         description:
             "Skilled experts maintain your AC system efficiently.",
         imageURL: "../images/services-images/470.webp",
-        linkUrl: 'https://mammutfm.ch/our-services/ac-maintenance/'
+        linkUrl: '/our-services/ac-maintenance/'
     },
     {
         id: uuid(),
@@ -27,7 +27,7 @@ export const serviceList: IService[] = [
         description:
             "Transform your space with skilled painting.",
         imageURL: "../images/services-images/138.webp",
-        linkUrl: 'https://mammutfm.ch/our-services/painting-service/'
+        linkUrl: '/our-services/painting-service/'
     },
     {
         id: uuid(),
@@ -37,7 +37,7 @@ export const serviceList: IService[] = [
             "Intensive, comprehensive clean by experienced professionals.",
         imageURL:
             "../images/services-images/2148848550.webp",
-        linkUrl: 'https://mammutfm.ch/our-services/pest-control/'
+        linkUrl: '/our-services/pest-control/'
     },
     {
         id: uuid(),
@@ -47,7 +47,7 @@ export const serviceList: IService[] = [
             "Skilled experts ensure smooth maintenance operations.",
         imageURL:
             "../images/services-images/58251.webp",
-        linkUrl: 'https://mammutfm.ch/our-services/maintenance-work/'
+        linkUrl: '/our-services/maintenance-work/'
     },
     {
         id: uuid(),
@@ -57,7 +57,7 @@ export const serviceList: IService[] = [
             "Improve air quality with thorough duct cleaning.",
         imageURL:
             "../images/services-images/171462.webp",
-        linkUrl: 'https://mammutfm.ch/our-services/deep-cleaning/'
+        linkUrl: '/our-services/ac-duct-cleaning/'
     },
     {
         id: uuid(),
@@ -67,7 +67,7 @@ export const serviceList: IService[] = [
             "Revive your furniture with professional upholstery.",
         imageURL:
             "../images/services-images/8150122.webp",
-        linkUrl: 'https://mammutfm.ch/our-services/upholstery-cleaning/'
+        linkUrl: '/our-services/upholstery-cleaning/'
     },
     {
         id: uuid(),
@@ -77,7 +77,7 @@ export const serviceList: IService[] = [
             "Restore the shine with expert marble polishing.",
         imageURL:
             "../images/services-images/1031167.webp",
-        linkUrl: 'https://mammutfm.ch/our-services/marble-polishing/'
+        linkUrl: '/our-services/marble-polishing/'
     },
     {
         id: uuid(),
@@ -87,7 +87,7 @@ export const serviceList: IService[] = [
             "Intensive, comprehensive clean by experienced professionals.",
         imageURL:
             "../images/services-images/10901142.webp",
-        linkUrl: 'https://mammutfm.ch/our-services/pool-cleaning/'
+        linkUrl: '/our-services/pool-cleaning/'
     },
 
 ]

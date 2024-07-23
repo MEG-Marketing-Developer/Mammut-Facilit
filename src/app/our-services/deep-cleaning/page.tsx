@@ -1,9 +1,15 @@
+import ServicesTemplate from '@/app/components/Ui/ServicesTemplate'
 import React from 'react'
 
 function deepCleaning() {
   return (
-    <div>deepCleaning</div>
-  )
+    <>   
+    <ServicesTemplate>
+   <p>This is a child element</p>
+   <p>Another child element</p>
+</ServicesTemplate>
+    </>  
+    )
 }
 
 export default deepCleaning

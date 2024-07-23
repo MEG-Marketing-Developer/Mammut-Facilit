@@ -18,7 +18,7 @@ const ServicesAside = ({}: IProps) => {
       href={service.linkUrl}
     >
       <Image
-        className="w-8 h-8"
+        className="w-4 h-4"
         width={20}
         height={20}
         src={service.titleImage}

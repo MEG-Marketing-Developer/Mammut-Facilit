@@ -15,6 +15,7 @@
     "@ionic/react-router": "^8.2.0",
     "@material-tailwind/react": "^2.1.9",
     "@types/react-transition-group": "^4.4.10",
+    "aos": "^2.3.4",
     "ionicons": "^7.4.0",
     "next": "14.2.3",
     "nodemailer": "^6.9.14",
@@ -24,6 +25,7 @@
     "uuid": "^10.0.0"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/nodemailer": "^6.4.15",
     "@types/react": "^18",
